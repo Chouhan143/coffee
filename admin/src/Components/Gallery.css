@@ -1,0 +1,19 @@
+
+   .card:hover{ 
+     opacity: 1; 
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+
+  .card-img-top{
+    padding-top: 20px;
+}
+
+.mainGallery{
+   background: url(../assest/Banner02.png);
+    background-size: cover;
+    font-family: serif;
+    background-repeat: no-repeat;
+    opacity: .7;
+    
+}

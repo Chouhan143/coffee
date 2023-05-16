@@ -1,0 +1,24 @@
+.mainMilkTea{
+    background: url(../assest/MilkTeaWithBanner.jpg);
+    background-size: cover;
+    font-family: serif;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.MilkTeaContainer{
+    padding-top: 30px;
+}
+
+.MilkTeaColor{
+    color: green !important;
+    font-weight: 600;
+}
+
+
+@media(max-width:376px)
+{
+    .mainMilkTea{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.mainDelightofMilk{
+    background: url(../assest/DelightBanner01.jpg);
+    background-size: cover;
+    font-family: serif;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.DelightContainer{
+    padding-top: 30px;
+}
+
+.DelightColor{
+    color: green !important;
+    font-weight: 600;
+}

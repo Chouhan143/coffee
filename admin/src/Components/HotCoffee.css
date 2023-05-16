@@ -1,0 +1,20 @@
+
+
+.mainHotCoffee{
+    background: url(../assest/Hotcoffebanner.jpg);
+    background-size: cover;
+    font-family: serif;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+
+.HotcoffeeContainer{
+    padding-top: 30px;
+}
+
+.HotColor{
+    color: green !important;
+    font-weight: 600;
+}
+

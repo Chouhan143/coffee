@@ -1,0 +1,6 @@
+.mainContact{
+    background-size: cover;
+    font-family: serif;
+    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../assest/car.jpg) center center no-repeat;
+    
+}
