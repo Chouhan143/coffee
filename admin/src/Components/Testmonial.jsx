@@ -8,7 +8,7 @@ import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
 import { AiTwotoneMail} from 'react-icons/ai'
 import {  FaAddressBook} from 'react-icons/fa'
 import Footer from './Footer'
-
+import { motion } from 'framer-motion';
 
 
 function Testmonial() {

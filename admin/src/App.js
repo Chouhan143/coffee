@@ -1,4 +1,5 @@
 import React from 'react';
+import  { useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
@@ -14,9 +15,16 @@ import HerbalTeaWithoutMilk from './Components/HerbalTeaWithoutMilk';
 import HotCoffee from './Components/HotCoffee';
 import ColdCoffee from './Components/ColdCoffee';
 import Gallery from './Components/Gallery';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init(); // Initialize AOS library
+  }, []);
+
+
   return (
     <>
 {/* <Router> */}

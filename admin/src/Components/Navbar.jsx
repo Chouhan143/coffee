@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css' 
 import logo from '../assest/CHAY WALA logo.png'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 // import {AiOutlineRight} from 'react-icons/ai'
 
@@ -18,11 +18,11 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto">
-                    <Link to="/" className="nav-item nav-link active">Home</Link>
-                    <Link to="/aboutus" className="nav-item nav-link">ABout</Link>
-                    <Link to="/gallary" className="nav-item nav-link">Gallery</Link>
+                    <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
+                    <NavLink to="/aboutus" className="nav-item nav-link">ABout</NavLink>
+                    <NavLink to="/gallary" className="nav-item nav-link">Gallery</NavLink>
                     <div className="nav-item dropdown">
-                        <Link to="/tea" className="nav-link " data-bs-toggle="dropdown">Types of Tea</Link>
+                        <NavLink to="/tea" className="nav-link " data-bs-toggle="dropdown">Types of Tea</NavLink>
                          <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
                             {/* <a href="feature.html" className="dropdown-item">Milk Tea Speical</a>
                             <a href="/blog" className="dropdown-item">Delight of Milk Special</a>
@@ -38,7 +38,7 @@ function Navbar() {
                         <Link to="/coldcoffee" className="dropdown-item">Cold Coffee</Link> 
                         </div>
                     </div>
-                    <Link to="/contactus" className="nav-item nav-link">Contact</Link>
+                    <NavLink to="/contactus" className="nav-item nav-link">Contact</NavLink>
                 </div>
             </div>
         </nav>

@@ -9,8 +9,8 @@ const Contact = () => {
   
         <div className="container">
             <div className="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth:"500px"}}>
-                <p className="fs-5 fw-medium fst-italic text-primay"> Contact Us  </p>
-                <h1 className="display-6">Contact us right now</h1>
+                {/* <p className="fs-5 fw-medium fst-italic text-primay"> Contact Us  </p> */}
+                <h1 className="display-6" style={{fontWeight:'bold'}}>Contact us right now</h1>
             </div>
             <div className="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
                 <div className="col-lg-8">
