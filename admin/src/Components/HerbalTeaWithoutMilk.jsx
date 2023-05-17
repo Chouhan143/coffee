@@ -41,7 +41,7 @@ const HerbalTeaWithoutMilk = () => {
                               <motion.div
                                    whileHover={{ scale: 0.9 }}
                                    whileTap={{ scale: 1.1 }}
-                                   drag="x"
+                                   // drag="x"
                                    dragConstraints={{ left: -100, right: 100 }}
                                    className="col-sm-6 col-md-4 col-lg-4">
                                    <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }} >
@@ -55,7 +55,7 @@ const HerbalTeaWithoutMilk = () => {
                               <motion.div
                                    whileHover={{ scale: 0.9 }}
                                    whileTap={{ scale: 1.1 }}
-                                   drag="x"
+                                   // drag="x"
                                    dragConstraints={{ left: -100, right: 100 }}
                                    className="col-sm-6 col-md-4 col-lg-4">
                                    <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }}>
@@ -69,7 +69,7 @@ const HerbalTeaWithoutMilk = () => {
                               <motion.div
                                    whileHover={{ scale: 0.9 }}
                                    whileTap={{ scale: 1.1 }}
-                                   drag="x"
+                                   // drag="x"
                                    dragConstraints={{ left: -100, right: 100 }}
                                    className="col-sm-6 col-md-4 col-lg-4">
                                    <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }}>
@@ -83,7 +83,7 @@ const HerbalTeaWithoutMilk = () => {
                               <motion.div
                                    whileHover={{ scale: 0.9 }}
                                    whileTap={{ scale: 1.1 }}
-                                   drag="x"
+                                   // drag="x"
                                    dragConstraints={{ left: -100, right: 100 }}
                                    className="col-sm-6 col-md-4 col-lg-4">
                                    <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }} >
@@ -97,7 +97,7 @@ const HerbalTeaWithoutMilk = () => {
                               <motion.div
                                    whileHover={{ scale: 0.9 }}
                                    whileTap={{ scale: 1.1 }}
-                                   drag="x"
+                                   // drag="x"
                                    dragConstraints={{ left: -100, right: 100 }}
                                    className="col-sm-6 col-md-4 col-lg-4">
                                    <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }} >

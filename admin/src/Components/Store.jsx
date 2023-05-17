@@ -85,7 +85,7 @@ function Store() {
                         <motion.div
                             whileHover={{ scale: 0.9 }}
                             whileTap={{ scale: 1.1 }}
-                            drag="x"
+                               // drag="x"
                             dragConstraints={{ left: -100, right: 100 }}
                             className="col-md-4 mb-3" data-aos="fade-right"  >
                             <div className="card" style={{ backgroundColor: '#7ED957' }}>
@@ -100,7 +100,7 @@ function Store() {
                         <motion.div
                             whileHover={{ scale: 0.9 }}
                             whileTap={{ scale: 1.1 }}
-                            drag="x"
+                             // drag="x"
                             dragConstraints={{ left: -100, right: 100 }}
                             className="col-md-4 mb-3" data-aos="fade-up" >
                             <div className="card" style={{ backgroundColor: '#7ED957' }}>
@@ -115,7 +115,7 @@ function Store() {
                         <motion.div
                             whileHover={{ scale: 0.9 }}
                             whileTap={{ scale: 1.1 }}
-                            drag="x"
+                             // drag="x"
                             dragConstraints={{ left: -100, right: 100 }}
                             className="col-md-4 mb-3" data-aos="fade-left">
                             <div className="card" style={{ backgroundColor: '#7ED957' }}>

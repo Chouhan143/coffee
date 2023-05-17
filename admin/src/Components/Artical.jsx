@@ -25,7 +25,7 @@ function Artical() {
                         className="col-lg-5 wow fadeIn">
                         <motion.img
                             whileHover={{ rotate: 360 }} // Rotate 360 degrees on hover
-                            transition={{duration:1.2}}
+                            transition={{duration:3}}
                             className="img-fluid" src={AyurvedicArtical} alt="" />
                     </div>
                     <div
