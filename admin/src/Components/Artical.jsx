@@ -5,7 +5,35 @@ import { motion } from 'framer-motion';
 import AyurvedicArtical from '../assest/AyurvedicArtical01.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useMediaQuery } from "@chakra-ui/media-query";
 function Artical() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
+    const [isMobile] = useMediaQuery("(max-width: 768px)");
+
+    const divVariants = {
+        mobile: {
+            height: "342px",
+            marginTop: "-25px",
+        },
+        desktop: {
+            height: "434px",
+            marginTop: "-25px",
+        },
+    };
+
+    const hoverVariants = {
+        desktop: {
+            rotate: 360,
+        },
+        mobile: {},
+    };
+
+
+
     useEffect(() => {
         AOS.init({
             duration: 500, // Set the animation duration (in milliseconds)
@@ -24,9 +52,14 @@ function Artical() {
                         data-aos-easing="ease-in-sine"
                         className="col-lg-5 wow fadeIn">
                         <motion.img
-                            whileHover={{ rotate: 360 }} // Rotate 360 degrees on hover
-                            transition={{duration:3}}
-                            className="img-fluid" src={AyurvedicArtical} alt="" />
+
+                            whileHover={!isMobile ? hoverVariants.desktop : hoverVariants.mobile}
+                            transition={{ duration: 3 }}
+                            initial={isMobile ? "mobile" : "desktop"}
+                            variants={divVariants}
+                            animate={isMobile ? "mobile" : "desktop"}
+
+                            className="Tea_plate" src={AyurvedicArtical} alt="" />
                     </div>
                     <div
                         data-aos="zoom-in-down"

@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
 import { AiTwotoneMail} from 'react-icons/ai'
 import {  FaAddressBook} from 'react-icons/fa'
 const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div>
         <div className="container-xxl contact py-5">

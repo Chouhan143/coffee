@@ -24,6 +24,9 @@ function App() {
     AOS.init(); // Initialize AOS library
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>

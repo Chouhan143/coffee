@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './DelightMilkTea.css';
 import Footer from './Footer'
 import store10 from '../assest/RoseTea.png'
@@ -10,6 +10,10 @@ import { motion } from 'framer-motion';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const DeligthMilkTea = () => {
+
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
    return (
       <>
          {/* <!-- Page Header Start --> */}
@@ -33,7 +37,7 @@ const DeligthMilkTea = () => {
          {/* <!-- DeligthMilkTea Menu Start --> */}
 
          <div className="container DelightContainer">
-            <motion.div
+            <motion.div className='testcls'
                animate={{ x: 10, scale: 1 }}
                initial={{ scale: 0 }}
                transition={{ duration: 1.2 }}

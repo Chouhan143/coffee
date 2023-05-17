@@ -39,6 +39,9 @@ import { useAnimation } from 'framer-motion';
 
 const Gallery = () => {
   
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
 
@@ -174,7 +177,7 @@ const Gallery = () => {
 
 
         {/* <!-- bootstrap image gallery 1 --> */}
-        <motion.div
+        <motion.div className='testcls'
           animate={{ x: 10, scale: 1 }}
           initial={{ scale: 0 }}
           transition={{ duration: 1.2 }}

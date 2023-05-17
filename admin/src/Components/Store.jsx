@@ -24,7 +24,7 @@ function Store() {
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="section-title text-center mx-auto wow fadeInUp" data-aos="fade-down">
-                        <p className="fs-5 fw-medium fst-italic text-primary">Online Store</p>
+                        {/* <p className="fs-5 fw-medium fst-italic text-primary">Online Store</p> */}
                         <h1 className="display-6" style={{ paddingBottom: '20px' }}>Want to stay healthy? Choose tea taste</h1>
                     </div>
                     <div className="row g-4">
@@ -114,7 +114,7 @@ function Store() {
                         </motion.div>
                         <motion.div
                             whileHover={{ scale: 0.9 }}
-                            whileTap={{ scale: 1.1 }}
+                            whileTap={{ scale: 1.1 }}   
                              // drag="x"
                             dragConstraints={{ left: -100, right: 100 }}
                             className="col-md-4 mb-3" data-aos="fade-left">

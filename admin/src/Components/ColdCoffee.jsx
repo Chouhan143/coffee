@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './ColdCoffee.css'
 import Footer from './Footer'
 import { motion } from 'framer-motion';
@@ -10,6 +10,9 @@ import store26 from '../assest/CappucinnoColdIcedCoffee.png'
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const ColdCoffee = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       {/* <!-- Page Header Start --> */}
@@ -34,7 +37,7 @@ const ColdCoffee = () => {
 
 
       <div className="container ColdCoffeeContainer" >
-        <motion.div
+        <motion.div className='testcls'
           animate={{ x: 10, scale: 1 }}
           initial={{ scale: 0 }}
           transition={{ duration: 1.2 }}
@@ -45,7 +48,7 @@ const ColdCoffee = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 1.1 }}
-              drag="x"
+              // drag="x"
               dragConstraints={{ left: -100, right: 100 }}
               className="col-sm-6 col-md-4 col-lg-4">
               <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }}>
@@ -60,7 +63,7 @@ const ColdCoffee = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 1.1 }}
-              drag="x"
+              // drag="x"
               dragConstraints={{ left: -100, right: 100 }}
               className="col-sm-6 col-md-4 col-lg-4">
               <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }} >
@@ -75,7 +78,7 @@ const ColdCoffee = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 1.1 }}
-              drag="x"
+              // drag="x"
               dragConstraints={{ left: -100, right: 100 }}
               className="col-sm-6 col-md-4 col-lg-4">
               <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }}>
@@ -90,7 +93,7 @@ const ColdCoffee = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 1.1 }}
-              drag="x"
+              // drag="x"
               dragConstraints={{ left: -100, right: 100 }}
               className="col-sm-6 col-md-4 col-lg-4">
               <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }}>
@@ -105,7 +108,7 @@ const ColdCoffee = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 1.1 }}
-              drag="x"
+              // drag="x"
               dragConstraints={{ left: -100, right: 100 }}
               className="col-sm-6 col-md-4 col-lg-4">
               <div className="card" style={{ margin: '10px', backgroundColor: '#7ED957' }}>

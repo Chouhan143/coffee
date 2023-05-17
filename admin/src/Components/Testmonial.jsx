@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../assest/CHAY WALA.png'
 import './Testmonial.css';
-import test1  from '../assest/testimonial-2.jpg'
-import test2 from '../assest/testimonial-3.jpg'
-import test3  from '../assest/test.jpg'
+import test1  from '../assest/dummy.png'
+import test2 from '../assest/dummy.png'
+import test3  from '../assest/dummy.png'
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
 import { AiTwotoneMail} from 'react-icons/ai'
 import {  FaAddressBook} from 'react-icons/fa'

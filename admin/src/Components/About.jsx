@@ -1,9 +1,9 @@
 import React from 'react'
 import { useEffect } from 'react'
 import './about.css'
-import about1 from '../assest/about-1.jpg'
-import about2 from '../assest/about-2.jpg'
-import about3 from '../assest/about-3.jpg'
+import about1 from '../assest/1.png'
+import about2 from '../assest/2.png'
+import about3 from '../assest/3.png'
 import about4 from '../assest/about-4.jpg'
 import about5 from '../assest/about-5.jpg'
 import about6 from '../assest/about-6.jpg'
@@ -21,6 +21,10 @@ function About() {
         });
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
 
 
     return (
@@ -30,12 +34,25 @@ function About() {
                     <div className="col-lg-6">
                         <div className="row g-3">
                             <div className="col-6 text-end">
-                                <img className="img-fluid bg-white w-100 mb-3 " data-aos="zoom-in-up" src={about1} alt="" />
-                                <img className="img-fluid bg-white w-50 " src={about2} alt="" data-aos="zoom-in-up" />
+                                <motion.img 
+                                 whileHover={{ scale: 1.1 }}
+                                // transition={{duration:1.2}}
+                                className="img-fluid bg-white w-100 mb-3 " data-aos="zoom-in-up" src={about1} alt="" />
+                                <motion.img 
+                                 whileHover={{ scale: 1.1}}
+                               //  transition={{ duration: 3 }}
+                                // transition={{duration:1.2}}
+                                className="img-fluid bg-white w-50 " src={about2} alt="" data-aos="zoom-in-up" />
                             </div>
                             <div className="col-6">
-                                <img className="img-fluid bg-white w-50 mb-3 wow fadeIn"  src={about3} alt="" data-aos="zoom-in-up" />
-                                <img className="img-fluid bg-white w-100 wow fadeIn"  src={about4} alt="" data-aos="zoom-in-up" />
+                                <motion.img 
+                                 whileHover={{ scale: 1.1}}
+                                // transition={{duration:1.2}}
+                                className="img-fluid bg-white w-50 mb-3 wow fadeIn"  src={about3} alt="" data-aos="zoom-in-up" />
+                                <motion.img 
+                                 whileHover={{ scale: 1.1}}
+                                // transition={{duration:1.2}}
+                                className="img-fluid bg-white w-100 wow fadeIn"  src={about4} alt="" data-aos="zoom-in-up" />
                             </div>
                         </div>
                     </div>

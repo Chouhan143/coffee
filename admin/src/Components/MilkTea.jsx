@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect}from 'react'
 import './MilkTea.css';
 import Footer from './Footer'
 import store7 from '../assest/ChayWalaSpecialTea.png'
@@ -12,6 +12,9 @@ import { motion } from 'framer-motion';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const MilkTea = () => {
+     useEffect(() => {
+          window.scrollTo(0, 0)
+        }, [])
      return (
           <div>        {/* <!-- Page Header Start --> */}
                <div className='mainMilkTea'>
@@ -33,7 +36,7 @@ const MilkTea = () => {
 
                {/* <!-- Milk Tea Menu start --> */}
                <div className="container MilkTeaContainer" >
-                    <motion.div
+                    <motion.div className='testcls'
                          animate={{ x: 10, scale: 1 }}
                          initial={{ scale: 0 }}
                          transition={{ duration: 1.2 }}
