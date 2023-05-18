@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <div className="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
                 <div className="col-lg-8">
-                    <p className="text-center mb-5">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    {/* <p className="text-center mb-5">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p> */}
                     <div className="row g-5">
                         <div className="col-md-4 text-center wow fadeInUp" data-wow-delay="0.3s">
                             <div className="btn-square mx-auto mb-3">

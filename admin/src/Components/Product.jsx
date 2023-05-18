@@ -19,7 +19,7 @@ function Product() {
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                            <h2 className='text-centre'>product based </h2>
+                            <h2 className='text-centre'>Our Special Categories </h2>
                         </div>
 
                         <div className="col-12">

@@ -18,19 +18,20 @@ function Footer() {
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6 ">
-                    <h4 className="text-success mb-4">Our Office</h4>
+                    <h4 className="text-success mb-4">About us</h4>
                     <p className="mb-3 "> 
-                          <i className="fa fa-map-marker-alt fa-2x text-white"></i>
-                               &nbsp;&nbsp;&nbsp;Sch No.-54, Shekher Residency,LG-10,Vijay Nagar, Indore, Madhya Pradesh 452010
+                          {/* <i className="fa fa-map-marker-alt fa-2x text-white"></i>
+                               &nbsp;&nbsp;&nbsp; */}
+                               Sch No.-54, Shekher Residency,LG-10,Vijay Nagar, Indore, Madhya Pradesh 452010
                      </p>
-                    <p className="mb-3"><i><BsFillTelephoneForwardFill/></i>&nbsp;&nbsp;&nbsp;+917880020088</p>
+                    {/* <p className="mb-3"><i><BsFillTelephoneForwardFill/></i>&nbsp;&nbsp;&nbsp;+917880020088</p>
                     <p className="mb-3"><i><AiOutlineMail/></i>&nbsp;&nbsp;&nbsp;info@thechaywala.com</p>
                     <div className="d-flex pt-3">
                         <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillTwitterCircle/></i></a>
                         <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillFacebook/></i></a>
                         <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillLinkedin/></i></a>
                         <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillYoutube/></i></a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-lg-3 col-md-5">
                     <h4 className="text-success mb-4">Quick Links</h4>
@@ -49,12 +50,19 @@ function Footer() {
                     <p className="mb-1">Sunday</p>
                     <h6 className="text-light">Closed</h6> */}
                 </div>
-                <div className="col-lg-3 col-md-6">
-                    <h4 className="text-success mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div className="position-relative w-100">
-                        <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"/>
-                        <button type="button" className="btn btn-success py-2 position-absolute top-10 end-0 mt-2 me-2">SignUp</button>
+                <div className="col-lg-3 col-md-6 ">
+                    <h4 className="text-success mb-4">Our Head Office</h4>
+                    <p className="mb-3 "> 
+                          <i className="fa fa-map-marker-alt fa-2x text-white"></i>
+                               &nbsp;&nbsp;&nbsp;Sch No.-54, Shekher Residency,LG-10,Vijay Nagar, Indore, Madhya Pradesh 452010
+                     </p>
+                    <p className="mb-3"><i><BsFillTelephoneForwardFill/></i>&nbsp;&nbsp;&nbsp;+917880020088</p>
+                    <p className="mb-3"><i><AiOutlineMail/></i>&nbsp;&nbsp;&nbsp;info@thechaywala.com</p>
+                    <div className="d-flex pt-3">
+                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillTwitterCircle/></i></a>
+                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillFacebook/></i></a>
+                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillLinkedin/></i></a>
+                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillYoutube/></i></a>
                     </div>
                 </div>
             </div>

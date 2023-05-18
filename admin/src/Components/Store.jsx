@@ -79,7 +79,7 @@ function Store() {
 
 
 
-                        {/* start new code productjs copy  */}
+                        {/* start new code   */}
 
 
                         <motion.div
